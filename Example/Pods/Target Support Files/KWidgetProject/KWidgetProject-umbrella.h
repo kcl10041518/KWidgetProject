@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "KScrollView.h"
+#import "KSlider.h"
 #import "KButton.h"
 
 FOUNDATION_EXPORT double KWidgetProjectVersionNumber;

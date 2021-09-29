@@ -246,7 +246,7 @@
 			attributes = {
 				CLASSPREFIX = K;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = kcl10041518;
+				ORGANIZATIONNAME = "Kcl Technology Co.,Ltd.";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
