@@ -8,7 +8,7 @@ PODS:
 
 DEPENDENCIES:
   - FBSnapshotTestCase
-  - KWidgetProject (from `../`)
+  - KWidgetProject (from `https://github.com/kcl10041518/KWidgetProject.git`)
 
 SPEC REPOS:
   trunk:
@@ -16,12 +16,17 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   KWidgetProject:
-    :path: "../"
+    :git: https://github.com/kcl10041518/KWidgetProject.git
+
+CHECKOUT OPTIONS:
+  KWidgetProject:
+    :commit: 4d384a313688d9dbd5c801cf78074773d496232a
+    :git: https://github.com/kcl10041518/KWidgetProject.git
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   KWidgetProject: 2bc831ebbf672520b2af917842d56ad4e57f7937
 
-PODFILE CHECKSUM: ab053c8a359cf6013257038e82f7afcc6fc73941
+PODFILE CHECKSUM: 4f2d51033227942c8a3c2b89dc3cabecf5e2831a
 
 COCOAPODS: 1.11.2
