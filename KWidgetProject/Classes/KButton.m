@@ -9,7 +9,7 @@
 
 @implementation KButton
 - (void)descrip {
-    
+    NSLog(@"descrip");
 }
 /*
 // Only override drawRect: if you perform custom drawing.

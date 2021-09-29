@@ -3,8 +3,8 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'KWidgetProject_Example' do
-  pod 'KWidgetProject', :git => 'https://github.com/kcl10041518/KWidgetProject.git'
-
+#  pod 'KWidgetProject', :git => 'https://github.com/kcl10041518/KWidgetProject.git'
+  pod 'KWidgetProject', :path => '../'
   target 'KWidgetProject_Tests' do
     inherit! :search_paths
 
