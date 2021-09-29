@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - KWidgetProject (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - KWidgetProject (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  KWidgetProject:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  KWidgetProject: 2bc831ebbf672520b2af917842d56ad4e57f7937
+
+PODFILE CHECKSUM: ab053c8a359cf6013257038e82f7afcc6fc73941
+
+COCOAPODS: 1.11.2
